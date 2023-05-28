@@ -135,3 +135,140 @@ form input[type="submit"]:hover {
 * {
   border-radius: 5px; /* Rounded corners for all elements */
 }
+/* CSS Stylesheet */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: calc(100% - 80px);
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #e6f7ff; /* Light blue background */
+}
+
+header {
+  background-color: #0047ab; /* Deep blue header */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffffff; /* White text in the header */
+}
+
+header .left,
+header .right {
+  display: flex;
+  gap: 10px;
+}
+
+header button {
+  background-color: #8a2be2; /* Purple button color */
+  color: #ffffff; /* White text on buttons */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #6a0dad; /* Darker purple when hovering over the button */
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  max-height: 270px;
+  margin-bottom: 20px; /* Margin under the image */
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px; /* Increased margin under each section */
+  background-color: #ffffff; /* Whitish background for sections */
+  border-radius: 10px; /* Rounded corners for sections */
+}
+
+.grid-section .image,
+.grid-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.double-content {
+  grid-template-columns: 1fr 1fr;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .flex-row div {
+  width: 45%;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px; /* Rounded corners for input fields */
+}
+
+input {
+  border: 1px solid #cccccc; /* Light gray border around input fields */
+}
+
+footer {
+  background-color: #0047ab; /* Deep blue footer */
+  text-align: center;
+  padding: 20px;
+  color: #ffffff; /* White text in the footer */
+}
+
+/* Hover styles */
+
+header a:hover,
+button:hover,
+.grid-section:hover {
+  background-color: #e7f7fd; /* Lighter background color on hover */
+  color: #000000; /* Black text on hover */
+  
+}
+
+form input[type="submit"] {
+  width: auto; /* Adjusted width for the submit button */
+  background-color: #8a2be2; /* Purple button color */
+  color: #ffffff; /* White text on buttons */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px; /* Rounded corners for the submit button */
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6a0dad; /* Darker purple when hovering over the submit button */
+}
+
+/* Additional styles */
+
+* {
+  border-radius: 5px; /* Rounded corners for all elements */
+}

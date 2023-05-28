@@ -98,3 +98,103 @@
     </footer>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Tu Página</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Header -->
+    <header>
+      <div class="left">
+        <button>Registrate</button>
+        <button>Inicia sesión</button>
+      </div>
+      <div class="right">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre nosotros</a>
+        <a href="#">Contactanos</a>
+      </div>
+    </header>
+
+    <!-- Primera Sección -->
+    <section class="grid-section">
+      <div class="content">
+        <h2>Seguridad en tu area con SafeMap</h2>
+        <p>Mantente a salvo mientras paseas por la ciudad</p>
+        <button>Empieza ya!</button>
+      </div>
+      <div class="image">
+        <img src="assets/map1.png" alt="Imagen 1" />
+      </div>
+    </section>
+
+    <!-- Segunda Sección -->
+    <section class="grid-section double-content">
+      <div class="image-content">
+        <img src="assets/step.png" alt="Imagen 2" />
+        <h2>Da el primer paso</h2>
+        <h3>Registrate!</h3>
+      </div>
+      <div class="image-content">
+        <img src="assets/contact.png" alt="Imagen 3" />
+        <h2>¿Tienes alguna duda?</h2>
+        <h3>¡Te escuchamos! Contactanos</h3>
+      </div>
+    </section>
+
+    <!-- Tercera Sección -->
+    <section class="grid-section">
+      <div class="image">
+        <img src="assets/walk.jpg" alt="Imagen 4" />
+      </div>
+      <div class="content">
+        <h2>Camina conciente de que puedes estar tranquilo</h2>
+        <h3>
+          Si bien siempre hay un riesgo. Mejor mantenerlo al minimo, ¿Verdad?
+          <br />
+          ¡Paseate sin miedo de terminar en lugares riesgosos!
+        </h3>
+        <button>¡Registrate!</button>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <form>
+      <div class="flex-row">
+        <div>
+          <label for="nombre">Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" />
+        </div>
+        <div>
+          <label for="correo">Correo:</label><br />
+          <input type="text" id="correo" name="correo" />
+        </div>
+      </div>
+      <label for="rol">Rol:</label><br />
+      <select id="rol" name="rol">
+        <option value="rol1">Estudiante de primaria</option>
+        <option value="rol2">Estudiante de secundaria</option>
+        <option value="rol3">Estudiante universitario</option>
+        <option value="rol4">Padre de familia</option>
+        <option value="rol5">Trabajador</option>
+        <option value="rol6">Adulto mayor</option>
+        <option value="rol7">Otro</option></select
+      ><br />
+      <label for="mensaje">Mensaje:</label><br />
+      <textarea id="mensaje" name="mensaje"></textarea><br />
+      <input type="checkbox" id="notificaciones" name="notificaciones" />
+      <label for="notificaciones"
+        >Quiero recibir notificaciones de la empresa</label
+      ><br />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2023 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
