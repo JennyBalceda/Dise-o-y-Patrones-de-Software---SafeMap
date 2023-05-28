@@ -1,1 +1,1 @@
-# Dise-o-y-Patrones-de-Software---SafeMap
+# Diseño y Patrones de Software - SafeMap
